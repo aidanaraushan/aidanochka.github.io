@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="Style.css">
   <title>CSS Design</title>
 </head>
-
 <body>
   <!-- HEADER -->
   <header>
@@ -16,9 +14,9 @@
   </header>
 
   <!-- Navbar -->
-  <div class="nav">
+  <nav>
       <a class="logo" href="#">
-        <img src="logo.png" alt="logo" width="50px" height="50px">
+        <img src="logo.png" alt="logo" width="80px" height="80px">
       </a>
       <ul class="menu">
         <li><a class="active" href="#task">Task</a></li>
@@ -37,15 +35,17 @@
     </h1>
     <hr>
     <article id="task">
-      <h2> Task</h2>
+      <h2 >Task</h2>
       <p>
-        <img src="css.png" alt="" width="450px" height="210px">
+        <img src="css.png" alt="" width="450px" height="210">
         As you have alredy learned in the last lecture,
         CSS is about the presentation of the documents
         like HTML or XML.
         So, in this lab assignment you need to form a group of two people and then together apply
         CSS styling rules to make this template HTML file look
         beautiful and interesting.
+      </p>
+      <p>
         There are no
         limits to what techniques you use and how you
         ultimately solve this task.
@@ -85,8 +85,8 @@
         </ul>
       </p>
       <p>
-        In your stylesheet you  <strong>must</strong>
-          use these selectors:
+        In your stylesheet you <strong>must</strong>
+         use these selectors:
         <ul>
           <li>Element selectors;</li>
           <li>Class selectors;</li>
@@ -120,10 +120,7 @@
       <h2>Submission</h2>
       <p>
        As usual, you <strong>must</strong> submit
-       your
-
-
-work via Github. All the files and images need to go to
+       your work via Github. All the files and images need to go to
        your <strong> <i>username.github.io</i> </strong>repository.
        Also, this page must be available
        through this domain name.
@@ -137,8 +134,8 @@ work via Github. All the files and images need to go to
          <img src="groupphoto.png" alt="" width="600px" height="400px">
 
         <ul>
-          <li>Zhuldyz Ramazanova</li>
-          <li>Aidana Raushan</li>
+          <li>Full Name 1</li>
+          <li>Full Name 2</li>
         </ul>
         Also, to submit your group members,
         please fill in the this
@@ -209,6 +206,7 @@ work via Github. All the files and images need to go to
     </article>
   </section>
 
+  <!-- Aside Information -->
   <aside>
     <h3>Important</h3>
     <section class="aside_content">
@@ -227,12 +225,12 @@ work via Github. All the files and images need to go to
         </p>
         <p>And, as usual, missing the deadline for submittion of your work will result in reduction of your score by 50%.</p>
 
-        <a class="links" href="#">More...</a>
+        <a href="#">More...</a>
       </article>
       </section>
 
         <h3>Some Dummy Content</h3>
-       <section class="dummy">
+       <section>
         <article>
         <h4>Article 1</h4>
         <p>
@@ -242,7 +240,7 @@ work via Github. All the files and images need to go to
           porro dolorum facere laudantium repellat
           ad necessitatibus asperiores dolor, molestias
           officiis corrupti iusto.
-          <a class="links" href="#">More...</a>
+          <a href="#">More...</a>
         </p>
       </article>
       <article>
@@ -254,19 +252,19 @@ work via Github. All the files and images need to go to
           porro dolorum facere laudantium repellat
           ad necessitatibus asperiores dolor, molestias
           officiis corrupti iusto.
-          <a class="links" href="#">More...</a>
+          <a href="#">More...</a>
         </p>
       </article>
       <article>
         <h4>Article 3</h4>
-<p>
+        <p>
           Lorem ipsum dolor sit amet consectetur,
           adipisicing elit. Odit, fugiat eveniet!
           Optio quia perspiciatis earum ipsa dicta
           porro dolorum facere laudantium repellat
           ad necessitatibus asperiores dolor, molestias
           officiis corrupti iusto.
-          <a class="links" href="#">More...</a>
+          <a href="#">More...</a>
         </p>
       </article>
     </section>
@@ -274,7 +272,7 @@ work via Github. All the files and images need to go to
 
   <!-- FOOTER -->
   <footer>
-    <div class="column contacts">
+    <div class="contacts">
       <div >
         <h5>Contacts</h5>
         <p>
@@ -286,14 +284,16 @@ work via Github. All the files and images need to go to
             info@naturallyinspired.com
           </a>
         </p>
-      <iframe src="https://maps.google.com/maps?q=Nazarbayev%20university,%20Nur-Sultan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      </div>
+      <div class="map">
+          <iframe src="https://maps.google.com/maps?q=Nazarbayev%20university,%20Nur-Sultan&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
           </iframe>
       </div>
     </div>
-    <div class="column categories">
+    <div class="categories">
       <h5>Top 10 Categories</h5>
-      <ul class="footers">
+      <ul>
         <li><a href="#">Category 1</a></li>
         <li><a href="#">Category 2</a></li>
         <li><a href="#">Category 3</a></li>
@@ -306,7 +306,7 @@ work via Github. All the files and images need to go to
         <li><a href="#">Category 10</a></li>
       </ul>
     </div>
-    <div class="column quick_links">
+    <div class="quick_links">
       <h5>Quick Links</h5>
       <ul>
         <li><a href="#">Item1</a></li>
@@ -317,7 +317,6 @@ work via Github. All the files and images need to go to
         <li><a href="#">Item6</a></li>
       </ul>
     </div>
-    </>
   </footer>
 </body>
 </html>
